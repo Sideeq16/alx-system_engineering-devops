@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Bash script displaying "Best School" in 10 times and Hi when it is 9
+
+c=0
+
+while [ $c -lt 10 ]
+do
+  if [ $c -eq 8 ]
+  then
+    echo "Best School"
+    echo "Hi"
+  else
+    echo "Best School"
+  fi
+  ((c++))
+done
