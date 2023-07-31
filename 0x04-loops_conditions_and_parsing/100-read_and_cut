@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Script that read the etc password
 
 while IFS=: read -r username _ uid _ _ home shell
 do
