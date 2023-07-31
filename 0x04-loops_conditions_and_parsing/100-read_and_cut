@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script that read the etc password
 
-while IFS=: read -r username _ uid _ _ home _
+while IFS=: read -r username _ uid _ _ home shell
 do
   echo "$username:$uid:$home"
 done < /etc/passwd
